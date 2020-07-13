@@ -1,0 +1,17 @@
+from tkinter import *
+def addNumber():
+    res=int(e1.get())+int(e2.get())
+    myText.set(res)
+root=Tk()
+myText=StringVar()
+Label(root,text="First Number : ").grid(row=0,sticky=W)
+Label(root,text="Second Number : ").grid(row=1,sticky=W)
+Label(root,text="Result : ").grid(row=3,sticky=W)
+result=Label(root,text="",textvariable=myText).grid(row=3,column=1,sticky=W)
+e1=Entry(root)
+e2=Entry(root)
+e1.grid(row=0,column=1)
+e2.grid(row=1,column=1)
+b=Button(root,text="Add",command=addNumber)
+b.grid(row=0, column=2,columnspan=2, rowspan=2,sticky=W+E+N+S, padx=5, pady=5)
+mainloop()
