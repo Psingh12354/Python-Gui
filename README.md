@@ -8,7 +8,7 @@
 
 #                                                                             Tkinter Programming
 
-# _Tkinter is the standard GUI library for Python. Python when combined with Tkinter provides a fast and easy way to create GUI applications. Tkinter provides a powerful object-oriented interface to the Tk GUI toolkit.
+# Tkinter is the standard GUI library for Python. Python when combined with Tkinter provides a fast and easy way to create GUI applications. Tkinter provides a powerful object-oriented interface to the Tk GUI toolkit.
 
 Creating a GUI application using Tkinter is an easy task. All you need to do is perform the following steps −
 
@@ -21,7 +21,7 @@ Add one or more of the above-mentioned widgets to the GUI application.
 Enter the main event loop to take action against each event triggered by the user.
 ##                                                      The order of program is not random
 
-  **Adding two number 
+ ### Adding two number 
   
 ```
 from tkinter import *
@@ -43,7 +43,7 @@ b.grid(row=0, column=2,columnspan=2, rowspan=2,sticky=W+E+N+S, padx=5, pady=5)
 mainloop()
 ```
 
-  **Atrributes OF Label & Pack
+  ### Atrributes OF Label & Pack
   
   ```
   from tkinter import *
