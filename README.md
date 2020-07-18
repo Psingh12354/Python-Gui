@@ -1,6 +1,6 @@
-#                                                                              Python-Gui
+#                                                                                 Python-Gui
 
-**_Here i upload my Python GUI based Programm
+##                                                                  Here i upload my Python GUI based Programm
 
 
 ##                                                                      Welcome all to my github Page
