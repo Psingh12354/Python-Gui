@@ -1,0 +1,16 @@
+from tkinter import *
+root=Tk()
+root.title("Addition")
+root.geometry("800x600")
+def add():
+    res=x1.get()+y1.get()
+    print(res)
+lab1=Label(root,text='Addition',font=('arial',20,'bold')).pack()
+lab2=Label(root,text='Enter first number : ',font=('arial',14,'bold'),width=24).place(x=50,y=94)
+x1=IntVar()
+entry1=Entry(root,textvariable=x1,width=30).place(x=300,y=100)
+lab2=Label(root,text='Enter first number : ',font=('arial',14,'bold'),width=24).place(x=50,y=150)
+y1=IntVar()
+entry1=Entry(root,textvariable=y1,width=30).place(x=300,y=155)
+btn=Button(root,text="Add",command=add).place(x=400,y=200)
+mainloop()
